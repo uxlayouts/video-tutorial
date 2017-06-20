@@ -10,7 +10,6 @@ class Post extends Component {
     const {location} = this.props
     const splitOnject = location.pathname.lastIndexOf('/');
     const pageId = location.pathname.substring(splitOnject + 1);
-    console.log(pageId);
 
     const dataAPI = 'https://jsonplaceholder.typicode.com';
     axios.get(dataAPI + '/posts/' + pageId)
@@ -18,13 +17,11 @@ class Post extends Component {
         this.setState({
           currentPost: response.data
         });
-        console.log(response.data);
       })
       .catch( (error) => {
         console.log(error);
       }
     );
-    console.log('in Post');
   }
 
   render() {

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const About = ( props, {router} ) => {
+const About = (props) => {
   return (
     <div className="item">
       <img className="img-responsive" src="https://lorempixel.com/output/transport-q-c-1600-400-9.jpg" alt="A biker" />
@@ -14,4 +14,5 @@ const About = ( props, {router} ) => {
     </div>
   );
 };
+
 export default About;

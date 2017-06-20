@@ -17,8 +17,6 @@ class Posts extends Component {
         console.log(error);
       }
     );
-
-    console.log('in Posts');
   }
 
   render() {

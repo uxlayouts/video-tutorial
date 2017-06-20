@@ -2,7 +2,6 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 const PostDisplay = (props) => {
-  console.log(props);
   return (
     <div>
       <h2>Posts</h2>
@@ -18,10 +17,3 @@ const PostDisplay = (props) => {
 }
 
 export default PostDisplay;
-
-// <Link
-//   to={{
-//     pathname: `/posts/${id}`,
-//     state: { message: 'hello, im a passed message!' }
-//   }}
-// >

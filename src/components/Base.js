@@ -5,7 +5,7 @@ import Nav from './Nav';
 import './Base.css';
 import './styles/includes.css';
 
-const Base = ( {route}, {router} ) => (
+const Base = ({route}, {router}) => (
   <div className="App">
     <Header />
     <Nav />

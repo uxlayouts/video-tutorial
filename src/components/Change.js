@@ -22,7 +22,7 @@ const Change = ( props, {router} ) => {
 };
 
 Change.contextTypes = {
-  router: object
+  router: object,
 }
 
 export default Change;
