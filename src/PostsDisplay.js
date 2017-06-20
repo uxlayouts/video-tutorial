@@ -10,7 +10,7 @@ const PostDisplay = (props) => {
         <div className="item" key={id}>
           <h2>{title}</h2>
           <p>{body}</p>
-          <NavLink to={`/posts/${id}/details`}>View {id}</NavLink>
+          <NavLink to={`/posts/${id}`}>View {id}</NavLink>
         </div>
       ))}
     </div>
@@ -18,3 +18,10 @@ const PostDisplay = (props) => {
 }
 
 export default PostDisplay;
+
+// <Link
+//   to={{
+//     pathname: `/posts/${id}`,
+//     state: { message: 'hello, im a passed message!' }
+//   }}
+// >
