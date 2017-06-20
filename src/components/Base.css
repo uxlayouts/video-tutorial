@@ -19,7 +19,7 @@
   .App-nav a {
     margin-right: 20px;
     color: #888888; }
-    .App-nav a:hover {
+    .App-nav a:hover, .App-nav a.active {
       color: white; }
 
 .App-intro {

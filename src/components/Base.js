@@ -3,6 +3,7 @@ import { renderRoutes } from 'react-router-config';
 import Header from './Header';
 import Nav from './Nav';
 import './Base.css';
+import './styles/includes.css';
 
 const Base = ( {route}, {router} ) => (
   <div className="App">

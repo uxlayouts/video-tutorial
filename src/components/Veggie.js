@@ -1,7 +1,7 @@
 import React from 'react';
 const Veggie = (props) => {
   return (
-    <div className="">
+    <div className="item">
       <h2>Veggie</h2>
       <p>
         Maecenas at dolor eu ligula consectetur elementum nec vitae tellus. Phasellus neque magna, sagittis sit amet libero non, blandit auctor tortor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque scelerisque bibendum faucibus. Suspendisse potenti. Ut eu nisl maximus, pharetra dolor a, semper mi. Pellentesque efficitur turpis ut hendrerit condimentum. Nunc blandit blandit tincidunt. Vivamus eu viverra ante. Aliquam erat volutpat. Pellentesque eleifend, massa a elementum ultricies, eros nulla vulputate risus, quis cursus magna nisl ut nibh.
