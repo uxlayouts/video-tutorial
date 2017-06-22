@@ -2,14 +2,17 @@
   "name": "video-tutorial",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://uxlayouts.github.io/video-tutorial/build/index.html",
   "dependencies": {
     "axios": "^0.16.2",
     "gsap": "^1.19.1",
     "npm-run-all": "^4.0.2",
     "prop-types": "^15.5.10",
     "react": "^15.6.1",
+    "react-css-transition-replace": "^2.2.1",
     "react-dom": "^15.6.1",
     "react-easy-transition": "^1.2.4",
+    "react-router-config": "^1.0.0-beta.3",
     "react-router-dom": "^4.1.1"
   },
   "devDependencies": {

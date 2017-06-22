@@ -5,12 +5,13 @@
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 70px;
+  display: inline-block;
 }
 
 .App-header {
   background-color: #222;
-  height: auto;
-  padding: 20px 20px 20px 20px;
+  text-align: center;
+  padding: 15px 20px;
   color: white;
 }
 
@@ -44,4 +45,32 @@
   border: 1px solid #eeeeee;
   text-align: left;
   padding: 1rem 2rem;
+}
+
+.item-slim{
+  background: #fafafa;
+  border-radius: 5px;
+  border: 1px solid #eeeeee;
+  text-align: left;
+  padding: 1rem 2rem;
+}
+
+.cross-fade-leave {
+  opacity: 1;
+}
+.cross-fade-leave.cross-fade-leave-active {
+  opacity: 0;
+  transition: opacity 1s ease-in;
+}
+
+.cross-fade-enter {
+  opacity: 0;
+}
+.cross-fade-enter.cross-fade-enter-active {
+  opacity: 1;
+  transition: opacity 1s ease-in;
+}
+
+.cross-fade-height {
+  transition: height .5s ease-in-out;
 }

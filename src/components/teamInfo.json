@@ -1,0 +1,14 @@
+[
+  {
+    "id" : 0,
+    "name" : "Jane West",
+    "position" : "UX Designer Lead",
+    "email" : "info@janewest.com"
+  },
+  {
+    "id" : 1,
+    "name" : "Kenny Leon",
+    "position" : "Senior Developer",
+    "email" : "info@kennyleon.com"
+  }
+]

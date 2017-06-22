@@ -3,6 +3,7 @@ import Home from './Home';
 import About from './About';
 import NotFound from './NotFound';
 import Change from './Change';
+import OurTeam from './OurTeam';
 import Tacos from './Tacos';
 import Chicken from './Chicken';
 import Veggie from './Veggie';
@@ -25,6 +26,11 @@ export default [
         path: '/change',
         component: Change,
         name: 'Change',
+      },
+      {
+        path: '/our-team',
+        component: OurTeam,
+        name: 'OurTeam',
       },
       {
         path: '/tacos',
