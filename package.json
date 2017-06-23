@@ -2,7 +2,7 @@
   "name": "video-tutorial",
   "version": "0.1.0",
   "private": true,
-  "homepage": "./build/",
+  "homepage": "./",
   "dependencies": {
     "axios": "^0.16.2",
     "gsap": "^1.19.1",
