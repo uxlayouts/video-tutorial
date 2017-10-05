@@ -1,7 +1,6 @@
 import React from 'react';
 import { renderRoutes } from 'react-router-config';
-import TransitionGroup from 'react-transition-group/TransitionGroup';
-import AnimatedSwitch from './AnimatedSwitch';
+import ReactCSSTransitionReplace from 'react-css-transition-replace';
 import { shape } from 'prop-types';
 import Header from './Header';
 import './Base.css';
@@ -10,11 +9,13 @@ import './styles/includes.css';
 const Base = ({route, location}, {router}) => (
   <div className="App">
     <Header />
-    <TransitionGroup component="main">
-      <AnimatedSwitch key={location.key} location={location}>
-        {renderRoutes(route.routes)}
-      </AnimatedSwitch>
-    </TransitionGroup>
+    <ReactCSSTransitionReplace
+      transitionName="cross-fade"
+      transitionEnterTimeout={1000}
+      transitionLeaveTimeout={1000}
+    >
+      {renderRoutes(route.routes, { key: location.pathname,})}
+    </ReactCSSTransitionReplace>
   </div>
 );
 
